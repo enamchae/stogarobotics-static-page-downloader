@@ -1,0 +1,15 @@
+{
+  "name": "crt_static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "download.js",
+  "scripts": {
+    "clear": "node ./clear.js",
+    "download": "node ./download.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
