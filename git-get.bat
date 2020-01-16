@@ -4,6 +4,6 @@ call ./config.bat
 mkdir public
 cd ./public
 git init
-git remote add origin "%ssh_url%"
+git remote add origin %ssh_url%
 git pull origin master
 cd ../

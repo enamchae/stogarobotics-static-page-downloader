@@ -20,6 +20,8 @@ Add or edit `./config.bat` to set SSH and Git settings.
 | `name`      | The name to be supplied to Git                       |
 | `commitmsg` | The commit message to be used when committing to Git |
 
+Dependencies are not included with this source code. Use `npm install` to download the dependencies.
+
 ## Downloading
 1. Clear the current static directory. `npm run clear` (may have to be run multiple times)
 2. Pull the files from a target repository. `.\git-get.bat`
