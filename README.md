@@ -4,13 +4,15 @@ This project downloads pages from a backend and stores them as static pages, suc
 ## Setup
 Edit `./config.js` to specify which files to download or copy. Edit the properties of the `module.exports`
 object to edit the settings.
+
 | Property                             | Description                                                         |
 |--------------------------------------|---------------------------------------------------------------------|
-| *`dirTarget`*: `string`              | Path to the directory to which the files should be downloaded       |
-| *`copyPairs`*: `string[][]`          | Array of [*local file/directory path*, *copy destination*] pairings |
-| *`downloadQueryPairs`*: `string[][]` | Array of [*server file location*, *download destination*] pairings  |
+| `dirTarget`: *`string`*              | Path to the directory to which the files should be downloaded       |
+| `copyPairs`: *`string[][]`*          | Array of [*local file/directory path*, *copy destination*] pairings |
+| `downloadQueryPairs`: *`string[][]`* | Array of [*server file location*, *download destination*] pairings  |
 
 Add or edit `./config.bat` to set SSH and Git settings.
+
 | Variable    | Description                                          |
 |-------------|------------------------------------------------------|
 | `ssh_url`   | The Git SSH URL of the target repository             |
