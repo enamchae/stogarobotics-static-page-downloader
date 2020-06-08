@@ -1,4 +1,4 @@
-:: Supply the SSH URL of (a fork of) the target repository.
+:: Supply the SSH URL of the target repository. (must be edited in the JS config file separately)
 set ssh_url=""
 
 :: Supply the Git identification options.

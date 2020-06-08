@@ -7,7 +7,7 @@ object to edit the settings.
 
 | Property                             | Description                                                         |
 |--------------------------------------|---------------------------------------------------------------------|
-| `dirTarget`: *`string`*              | Path to the directory to which the files should be downloaded       |
+| `dirTarget`: *`string`*              | Path to the directory to which the files should be downloaded (must be edited in the Batch scripts separately)      |
 | `copyPairs`: *`string[][]`*          | Array of [*local file/directory path*, *copy destination*] pairings |
 | `downloadQueryPairs`: *`string[][]`* | Array of [*server file location*, *download destination*] pairings  |
 
@@ -32,4 +32,4 @@ Dependencies are not included with this source code. Use `npm install` to downlo
 7. Track the files and push them to the repository. `.\git-post.bat`
 
 ## Other scripts
-Use `.git-undolast.bat` to undo the last pushed commit, while retaining changes locally.
+Use `.\git-undolast.bat` to undo the last pushed commit, while retaining changes locally.
